@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* respomsive */
+
+/* Mobile view */
+@media(min-width: 280px) {
+    body{
+        background-image: url("imageAttribute/image1.jpg");
+    }
+    p{
+        color: white;
+    }
+    }
+    
+
+    /* Tablet view */
+@media(min-width: 700px) {
+    body{
+        /* background-color: gray; */
+        background-image: url("imageAttribute/images2.jpg");
+    }
+    p{
+        color: blue;
+    }
+    }
+
+    
+/* desktop view */
+@media(min-width: 1000px) {
+body{
+    /* background-color: black; */
+    background-image: url("imageAttribute/image3.jpg");
+}
+P{
+    color: white;
+    font-size: 25px;
+}
+}
+
+
+
